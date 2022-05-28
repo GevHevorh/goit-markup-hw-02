@@ -1,0 +1,148 @@
+
+/* цвет основного текста #757575; */
+/* вторичный цвет текста #212121; */
+/* не основной цвет фона (сверху и футер) темно-серый #2F303A; */
+/* основной цвет фона (мэин) белый #E5E5E5; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
+}
+
+
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto;
+}
+
+
+    .list {
+        list-style: none;
+}
+    .link {
+        list-style: none;
+        text-decoration: none;
+    }
+
+/* ----------logo---------- */
+
+.header-logo {
+    color: var(--accent-color)
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+
+}
+
+.footer-logo {
+    color: var(--accent-color)
+}
+
+.logo-part {
+    color: var(--title-text-color)
+}
+
+/* ----------site nav---------- */
+/* .current - поставил ниже после ".link", но забыл нахуя поставил*/
+
+.site-nav .link .current {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14px;
+    text-decoration: none;
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+
+.contacts .link .list {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.14px;
+
+
+}
+
+.mail-item .mail-link:hover,
+.mail-item .mail-link:focus {
+    color:var(--accent-color)
+}
+.tel-item .tel-link:hover,
+.tel-item .tel-link:focus {
+    color: var(--accent-color)
+}
+
+/* ----------hero---------- */
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+
+/* ----------Наши преимущества---------- */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+}
+
+
+
+
+/* features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* ----------Наша команда---------- */
+.caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    color: var(--title-text-color)
+}
+.job-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+
+/* ----------portfolio---------- */
+button {
+    font-family: inherit;
+}
